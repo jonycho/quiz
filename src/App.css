@@ -1,0 +1,130 @@
+.container{    
+  position: relative; 
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-blue{
+  position: absolute;
+  bottom:0;
+  left:0;
+  z-index: 0;
+}
+
+.img-yellow{
+  position: absolute;
+  right: 0;
+  top:0;
+  z-index: 0;
+}
+
+h1{
+  font-family: 'Karla', sans-serif;
+  font-size:30px;
+  margin: 0;
+}
+
+
+.home{
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: rgba(255, 255, 255, 0.8);
+ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+ padding: 40px;
+ gap:20px;
+}
+
+.btn-submit{
+  background-color: #4D5B9E;
+  color:#F5F7FB;
+  border:none;
+  width: 190px;
+  padding:16px 28px;
+  border-radius:15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.home button:active{
+  box-shadow: inset 1px 1px 10px #333;
+}
+
+.listquestions{
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  min-width: 60%;
+  background-color: white;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  margin:10px;
+}
+
+.questionBlock{
+  border-bottom:1px solid #DBDEF0;
+  margin-bottom:15px;
+  padding-bottom: 15px;
+}
+
+.questionBlock h2{
+  font-size: 16px;    
+  font-family: 'Karla', sans-serif;
+  margin-bottom:12px;
+}
+.listAnswers{
+  display: flex;
+  gap:10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.listAnswers button{
+  padding: 4px 15px;
+  border:1px solid #293264;
+  border-radius:8px;
+  font-size:10px;
+  cursor: pointer;
+  color: #293264;
+  font-weight: bold;
+}
+
+.selected{
+  background-color: #D6DBF5;
+}
+
+.results{
+  text-align: center;
+}
+
+.results p{
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.results p button{
+  margin-left: 15px;
+}
+
+.correcta{
+  background-color: #94D7A2;
+}
+.incorrecta{
+  background-color: #F8BCBC;
+  color:#8F94AF !important;
+  border:1px solid #8F94AF !important;
+}
+.restobotones{
+  color:#8F94AF !important; 
+  border:1px solid #8F94AF !important;
+}
+.img-home{
+  width:200px;
+}
