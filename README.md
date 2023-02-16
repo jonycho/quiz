@@ -6,12 +6,10 @@ This project is created in React based on the Open Trivia Database API ❓. Choo
 
 https://quiz-movie-project.netlify.app/
 ## Screenshots 🖼️
+![screen-quiz](https://user-images.githubusercontent.com/121981717/219457558-2363a614-5f24-4185-9c5c-fbc9fce5d2fd.png)
+![screen-quiz2](https://user-images.githubusercontent.com/121981717/219457576-2d7a8d6f-c1eb-4829-8882-a34fbe3094e0.png)
+![screen-quiz3](https://user-images.githubusercontent.com/121981717/219457586-a1532b76-3ed0-4973-9692-272a1d310d53.png)
 
-![App Screenshot](https://i.postimg.cc/PxhMN4WW/screen-quiz.png)
-
-![App Screenshot 2](https://i.postimg.cc/SRx7fxtj/screen-quiz2.png)
-
-![App Screenshot 3](https://i.postimg.cc/kGYN1Pks/screen-quiz3.png)
 ## Documentation
 
 - [Open Trivia Database API](https://opentdb.com/)
